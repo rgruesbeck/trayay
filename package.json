@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@trayio/builder-squad-event-emitter": "^1.1.0",
     "parcel-bundler": "^1.12.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "npx parcel watch index.html",
+    "start": "npx parcel index.html",
     "build": "npx parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
